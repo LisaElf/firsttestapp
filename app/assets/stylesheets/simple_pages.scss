@@ -1,3 +1,81 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #E6E7FB;
+}
+
+.container-fluid {
+  margin: 24px auto;
+  width: 80%;
+}
+
+.nav-container {
+  position: -webkit-sticky; /*safari*/
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  padding-top: 16px;
+  background: #625F63;
+  border-bottom: 5px solid #A9AAC1;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  //padding-top: 16px;
+}
+
+nav a {
+  padding-left: 8px;
+  color: #2A293C;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #E6E7FB;
+}
+
+h1, h2, p, footer, nav {
+  font-family: Biryani, 'Didact Gothic', Arial, sans-serif;
+  color: #2A293C;
+}
+
+h1, footer {
+  text-align: center;
+}
+
+nav ul li {
+  text-align: left;
+  display: inline;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding-top: 16px;
+  background-color: #625F63;
+  border-top: 5px solid #A9AAC1;
+  min-height: 32px;
+  width: 100%;
+}
